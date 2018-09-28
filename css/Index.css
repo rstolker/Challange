@@ -1,3 +1,5 @@
+
+/* Navbar begint hier */
 table {
     width: 100%;
     background-color:  #d05a52;
@@ -37,7 +39,9 @@ li{
     margin-left: 10px;
 }
 
-#pic{
+/* Navbar stopt hier*/
+
+#loginKnop{
     width: 50px;
     float: right;
 }
@@ -46,9 +50,49 @@ li{
     float: left;
 }
 
-h1 {
-    text-decoration-color: #db847d;
+body {
+    background-color: #f3d6d4
 }
+
+h1 {
+    color: #b93a32
+}
+
 #Header_photo {
     padding-right: 10px;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom:56.25%;
+    padding-top:30px;
+    height:0;
+    overflow:hidden;
+    align-content: center;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+    position:absolute;
+    top:0;
+    left:0;
+    width:90%;
+    height:90%;
+
+}
+
+@media only screen and (max-width: 655px) {
+    .video-container iframe, .video-container object, .video-container embed {
+        display: none;
+    }
+    .video-container{
+        display: none;
+    }
+
+    #Header_photo2 {
+        display: none;
+    }
+    #Header_photo1 {
+        width: 100%;
+        height: 100%;
+    }
 }
