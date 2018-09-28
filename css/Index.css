@@ -1,3 +1,54 @@
-table, th, td {
-    border: 1px solid gray;
+table {
+    width: 100%;
+    background-color:  #d05a52;
+}
+
+td {
+    background-color:  #d05a52;
+}
+
+th{
+    background-color:  #a6352d;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #a6352d ;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+}
+
+li{
+    background-color: #d05a52;
+    margin-left: 10px;
+}
+
+#pic{
+    width: 50px;
+    float: right;
+}
+
+#footer {
+    float: left;
+}
+
+h1 {
+    text-decoration-color: #db847d;
+}
+#Header_photo {
+    padding-right: 10px;
 }

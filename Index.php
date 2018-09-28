@@ -13,13 +13,14 @@
 <body>
 
 <ul>
-    <li><a href="#home">Home</a></li>
-    <li><a href="#news">News</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#about">About</a></li>
+    <li><a class="active" href="#home">Home</a></li>
+    <li><a href="#news">Memory</a></li>
+    <li><a href="#contact">Getallenrij</a></li>
+    <li><a href="#about">Picturepuzzle</a></li>
+    <img id="pic" src="img/sign-in.png" alt="Rita_Hayworth">
 </ul>
 
-<img src="img/rita-hayworth-face-shot.jpeg" alt="Rita_Hayworth" >
+<img id="Header_photo" src="img/rita-hayworth-face-shot.jpeg" alt="Rita_Hayworth" >
 <img src="img/Rita_Hayworth-publicity.jpg" alt="Rita_Hayworth" >
 
 <h1>Rita Hayworth</h1>
@@ -47,7 +48,9 @@
         <td>Road to Salina</td>
         <td>Mara</td>
     </tr>
+    <th colspan="3"><a id="footer">Dit is de footer </a></th>
 </table>
+
 
 </body>
 </html>
